@@ -125,6 +125,10 @@ body {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
+    .pokemon .detail img {
+        max-width: 70%;
+        height: 70px;
+    }
 }
 
 @media screen and (min-width: 576px) {
